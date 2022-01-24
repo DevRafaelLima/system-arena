@@ -1,0 +1,115 @@
+.header {
+    height: 50px;
+    background-color: #050505;
+}
+.menu a {
+    color: #fff;
+}
+#capa {
+    height: 400px;
+    background-image: url("../img/capa.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+#capa .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#capa .capa-int {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#capa .capa-int .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-color: white;
+}
+#capa .capa-int .conteudo{
+    text-align: center;
+}
+#capa .capa-int .conteudo h1 {
+    color: white;
+}
+#capa .capa-int .conteudo span {
+    color: #fff;
+}
+
+#agendar {
+    margin-top: 50px;
+}
+
+#horarios {
+    margin-top: 50px;
+}
+
+/*ESTILO - CADASTRE-SE*/
+#cadastre_se {
+    background-image: linear-gradient(to right,#eadbda,#c078a9 );
+    padding: 50px;
+}
+#cadastre_se .container{
+    background-color: #050505;
+    border-radius: 50px;
+    background-color: #fff;
+}
+#cadastre_se .logo{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #58af9c;
+}
+#cadastre_se .logo .imagem{
+    width: 200px;
+    height: 200px;
+    background-color: #050505;
+}
+#cadastre_se .logo .conteudo{
+    width: 300px;
+    margin-top: 20px;
+}
+#cadastre_se .logo .conteudo p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+#cadastre_se .logo .conteudo a {
+    text-decoration: none;
+    border: solid 1px #fff;
+    display: block;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+#cadastre_se .logo .conteudo a:hover{
+    color: #050505;
+    background-color: #fff;
+}
+#cadastre_se .formulario {
+    padding: 20px;
+}
+#cadastre_se .formulario span{
+    color: red;
+}
+#cadastre_se .formulario .info {
+    color: #888;
+    text-align: justify;
+}
+#cadastre_se .formulario h1 {
+    color: #58af9c;
+    text-align: center;
+}
+
+/*ÁREA ADMINISTRATVA*/
+
